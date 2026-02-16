@@ -50,6 +50,15 @@ Your tasks:
 - Do not introduce extra tooling unless required.
 - You may add tests and the smallest code change needed to fix the bug.
 
+### 5) EXPLANATION.md (required)
+
+Create `EXPLANATION.md` (max 250 words) containing:
+
+- **What was the bug?**
+- **Why did it happen?**
+- **Why does your fix solve it?**
+- **One realistic case / edge case your tests still don’t cover**
+
 ## Submission
 
 - Submit a public GitHub repository URL containing your solution to the Google form link provided.
