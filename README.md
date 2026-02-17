@@ -7,6 +7,24 @@ This assignment evaluates your ability to:
 - write focused tests to reproduce a bug,
 - implement a minimal, reviewable fix.
 
+## Running Tests Locally
+
+To run the tests locally:
+
+```bash
+npm install
+npm test
+```
+
+## Running Tests with Docker
+
+To build and run the tests using Docker:
+
+```bash
+docker build -t ai-software-engineer-assignment .
+docker run ai-software-engineer-assignment
+```
+
 ## What you will do
 
 ### 1) Dockerfile (required)
@@ -56,7 +74,7 @@ Create `EXPLANATION.md` (max 250 words) containing:
 - **What was the bug?**
 - **Why did it happen?**
 - **Why does your fix solve it?**
-- **One realistic case / edge case your tests still don’t cover**
+- **One realistic case / edge case your tests still don't cover**
 
 ## Submission
 
